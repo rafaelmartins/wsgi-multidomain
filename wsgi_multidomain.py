@@ -4,7 +4,7 @@
     ~~~~~~~~~~~~~~~~
     
     Python module to create a single wsig application object, that can
-    dispatches requests for other applications, based on the SERVER_NAME
+    dispatches requests for other applications, based on the HTTP_HOST
     environment variable, implementing multi domain support.
     
     :copyright: (c) 2011 by Rafael Goncalves Martins
