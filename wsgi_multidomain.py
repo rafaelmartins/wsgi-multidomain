@@ -11,6 +11,15 @@
     :license: BSD, see LICENSE for more details.
 """
 
+__all__ = ['Domain', 'Host', 'Dispatcher']
+__author__ = 'Rafael G. Martins'
+__email__ = 'rafael@rafaelmartins.eng.br'
+__description__ = 'Multi domain WSGI dispatcher.'
+__url__ = 'http://labs.rafaelmartins.org/wsgi-multidomain/'
+__copyright__ = '(c) 2011 %s' % __author__
+__license__ = 'BSD'
+__version__ = '0.1pre'
+
 
 def get_hostname(environ):
     rv = environ.get('HTTP_HOST', '')
